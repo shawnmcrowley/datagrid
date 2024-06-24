@@ -65,7 +65,7 @@ export default function Page() {
             field: "make",
             headerName: "Company"
         },
-        {  headerName: "model",
+        {  headerName: "Model",
             field: 'model.large'
          },
         { field: "price" },
@@ -78,7 +78,8 @@ export default function Page() {
 
 
     return (
-        <div className="ag-theme-quartz" style={{ height: 500 }}>Data Grid
+        <div className="ag-theme-quartz" style={{ height: 500 }}>Data Grid with Nested Objects
+            <p></p>
             <AgGridReact rowData={rowData} columnDefs={colDefs} defaultColDef={defaultColDef} />
         </div>
     )
