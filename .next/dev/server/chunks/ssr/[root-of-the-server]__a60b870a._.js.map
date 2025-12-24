@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///home/scrowley/Source/datagrid/src/app/page.js"],"sourcesContent":["import Link from \"next/link\";\n\nexport default function Home() {\n  return (\n    <main style={{ padding: \"2rem\" }}>\n      <h1>Data Grid Example</h1>\n      <p>Easy Data Display Grid with Filters, Sorting, Dates and Support for Nested Objects via JSON</p>\n      <div style={{ marginTop: \"2rem\" }}>\n        <Link href=\"/grid\" style={{ \n          padding: \"0.75rem 1.5rem\", \n          backgroundColor: \"#0070f3\", \n          color: \"white\", \n          textDecoration: \"none\",\n          borderRadius: \"0.5rem\",\n          display: \"inline-block\"\n        }}>\n          View Data Grid\n        </Link>\n      </div>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAK,OAAO;YAAE,SAAS;QAAO;;0BAC7B,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BACH,8OAAC;gBAAI,OAAO;oBAAE,WAAW;gBAAO;0BAC9B,cAAA,8OAAC,0LAAI;oBAAC,MAAK;oBAAQ,OAAO;wBACxB,SAAS;wBACT,iBAAiB;wBACjB,OAAO;wBACP,gBAAgB;wBAChB,cAAc;wBACd,SAAS;oBACX;8BAAG;;;;;;;;;;;;;;;;;AAMX"}}]
-}

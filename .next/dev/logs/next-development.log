@@ -1,3 +1,0 @@
-[00:00:00.977] Server  LOG      ✓ Ready in 683ms
-[00:00:08.760] Server  LOG      ○ Compiling / ...
-[00:00:16.978] Browser WARN    AG Grid: debounceMs is ignored when apply button is present
